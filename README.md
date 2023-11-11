@@ -4,9 +4,9 @@
 
 # NPM Status
 
-[![NPM Version](https://img.shields.io/npm/v/meta-horizon-remake.svg?style=flat-square)](https://www.npmjs.org/package/meta-horizon-remake)
-[![NPM](https://nodei.co/npm/meta-horizon-remake.png?downloads=true)](https://www.npmjs.com/package/meta-horizon-remake)
-[![Minimum Node.JS Version](https://badgen.net/npm/node/meta-horizon-remake)](https://npmjs.com/package/meta-horizon-remake)
+[![NPM Version](https://img.shields.io/npm/v/meta-horizon.svg?style=flat-square)](https://www.npmjs.org/package/meta-horizon)
+[![NPM](https://nodei.co/npm/meta-horizon.png?downloads=true)](https://www.npmjs.com/package/meta-horizon)
+[![Minimum Node.JS Version](https://badgen.net/npm/node/meta-horizon)](https://npmjs.com/package/meta-horizon)
 <!-- <p align="center">
 	<a href="https://nodejs.org/dist/v16.20.0">
 		<img src="https://img.shields.io/badge/Nodejs%20Support-16.x-brightgreen.svg?style=flat-square" alt="Nodejs Support v16.x">
