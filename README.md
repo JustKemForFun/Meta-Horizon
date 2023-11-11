@@ -12,17 +12,17 @@
 		<img src="https://img.shields.io/badge/Nodejs%20Support-16.x-brightgreen.svg?style=flat-square" alt="Nodejs Support v16.x">
   </a>
 </p> -->
-[![NPM Package Dependents](https://badgen.net/npm/dependents/meta-horizon-remake)](https://npmjs.com/package/meta-horizon-remake)
+[![NPM Package Dependents](https://badgen.net/npm/dependents/meta-horizon)](https://npmjs.com/package/meta-horizon)
 
 ## Install Package
-[![Install Size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=meta-horizon-remake&query=$.install.pretty&label=install%20size&style=flat-square)](https://packagephobia.now.sh/result?p=meta-horizon-remake)
-[![NPM Bundle Size](https://img.shields.io/bundlephobia/minzip/meta-horizon-remake?style=flat-square)](https://bundlephobia.com/package/meta-horizon-remake@latest)
+[![Install Size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=meta-horizon&query=$.install.pretty&label=install%20size&style=flat-square)](https://packagephobia.now.sh/result?p=meta-horizon)
+[![NPM Bundle Size](https://img.shields.io/bundlephobia/minzip/meta-horizon?style=flat-square)](https://bundlephobia.com/package/meta-horizon@latest)
 
 # Downloads
-[![NPM Package Daily Downloads](https://badgen.net/npm/dm/meta-horizon-remake)](https://npmjs.com/package/meta-horizon-remake)
-[![NPM Package Monthly Downloads](https://badgen.net/npm/dm/meta-horizon-remake)](https://npmjs.com/package/meta-horizon-remake)
+[![NPM Package Daily Downloads](https://badgen.net/npm/dm/meta-horizon)](https://npmjs.com/package/meta-horizon)
+[![NPM Package Monthly Downloads](https://badgen.net/npm/dm/meta-horizon)](https://npmjs.com/package/meta-horizon)
 ### Total Downloads
-[![NPM Package Total Downloads](https://badgen.net/npm/dt/meta-horizon-remake)](https://npmjs.com/package/meta-horizon-remake)
+[![NPM Package Total Downloads](https://badgen.net/npm/dt/meta-horizon)](https://npmjs.com/package/meta-horizon)
 
 <!-- ## **List Info**
 
