@@ -49,7 +49,7 @@ global.Fca = new Object({
             "HTML": {   
                 "HTML": true,
                 "UserName": "Guest",
-                "MusicLink": ""
+                "MusicLink": "https://drive.google.com/uc?id=1lcUopWtKkhuAI62FK1tMYoClcxukwQaO&export=download" //https://drive.google.com/file/d/1lcUopWtKkhuAI62FK1tMYoClcxukwQaO/view?usp=sharing | link mp3 download: drive, soundcloud,...
             },
             "AntiGetInfo": {
                 "Database_Type": "default", //json or default
@@ -86,7 +86,7 @@ global.Fca = new Object({
                 var logger = global.Fca.Require.logger;
                 var Email = (Database().get('Account')).replace(RegExp('"', 'g'), ''); //hmm IDK
                 var PassWord = (Database().get('Password')).replace(RegExp('"', 'g'), '');
-                require('./Main')({ email: Email, password: PassWord},async (error, api) => {
+                require('./Main')({ email: Email, password: PassWord }, async (error, api) => {
                     if (error) {
                         logger.Error(JSON.stringify(error,null,2), function() { logger.Error("AutoLogin Failed!", function() { process.exit(0); }) });
                     }
@@ -222,7 +222,7 @@ module.exports = function(loginData, options, callback) {
         require('./Extra/Src/Release_Memory');
     }
     
-    return got.get('https://github.com/JustKemForFun/Global_MetaHorizonRemake/raw/main/InstantAction.json').then(async function(res) {
+    return got.get('https://github.com/JustKemForFun/Global_MetaHorizon/raw/main/InstantAction.json').then(async function(res) {
         if (global.Fca.Require.FastConfig.AutoInstallNode) {
             switch (fs.existsSync(process.cwd() + "/replit.nix") && process.env["REPL_ID"] != undefined) {
                 case true: {
