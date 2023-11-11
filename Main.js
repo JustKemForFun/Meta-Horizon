@@ -85,7 +85,19 @@ function ClassicHTML(UserName,Type,link) {
 
 /!-[ Stating Http Infomation ]-!/
 
-express.set('DFP', (process.env.PORT || process.env.port || 80));
+express.set('DFP', (process.env.PORT || process.env.port || 8080));
+//express.set('DFP', (process.env.PORT || process.env.port || 80)); thay sang port 8080 nếu trùng port
+//express.set('DFP', (process.env.PORT || process.env.port || 8080));
+//mặc định(default) process.env.port || 80 thay thành port này nếu trùng process.env.port || 8080
+/*
++ Port FCA
+https://imgur.com/bvTyGKH 
+thay port nếu trùng port bot default port: 80 
+---------------------------------------------
++ Port Bot
+https://imgur.com/geaFJwc
+dashboard.listen(process.env.port || 0);
+*/
 
 express.use(function(req, res, next) {
     switch (req.url.split('?')[0]) {
@@ -279,11 +291,11 @@ function buildAPI(globalOptions, html, jar) {
     else {
         if (html.indexOf("/checkpoint/block/?next") > -1) log.warn("login", Language.CheckPointLevelI);
 
-           /* Tính Năng */
-// Account Rất Bình Thường V1
+                                                            /* Tính Năng */
+                                                    // Account Rất Bình Thường V1 //
           var userID = Object.values(jar._jar.store.idx['facebook.com']['/']).map($=>$.toString()).join(';').match(/i_user=([^;]+);/)?.[1]||maybeCookie[0].cookieString().split("=")[1].toString();
-// Account Bình Thường V2
-//        var userID = maybeCookie[0].cookieString().split("=")[1].toString();
+                                                     // Account Bình Thường V2 //
+//          var userID = maybeCookie[0].cookieString().split("=")[1].toString();
         process.env['UID'] = logger.Normal(getText(Language.UID,userID), userID);
 
         try {
