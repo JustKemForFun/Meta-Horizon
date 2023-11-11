@@ -9,12 +9,12 @@
   "author": "Avery, David, Maude, Benjamin, UIRI, KanzuWakazaki, Kem",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KanzuXHorizon/Fca-Horizon-Remastered/issues"
+    "url": "https://github.com/JustKemForFun/Meta-Horizon/issues"
   },
-  "homepage": "https://github.com/KanzuXHorizon/Fca-Horizon-Remastered#readme",
+  "homepage": "https://github.com/JustKemForFun/Meta-Horizon#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/KanzuXHorizon/Fca-Horizon-Remastered.git"
+    "url": "git://github.com/JustKemForFun/Meta-Horizon.git"
   },
   "dependencies": {
     "aes-js": "latest",
