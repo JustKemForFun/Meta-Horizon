@@ -94,11 +94,11 @@ Lưu Ý ! Nếu Bạn Muốn Sài API Này Hãy Xem Document Tại **[Đây Nè]
 
 Nếu Bạn Muốn Sử Dụng, Hãy Tải Nó Bằng Cách:
 ```bash
-npm i meta-horizon-remake
+npm i meta-horizon
 ```
 or
 ```bash
-npm install meta-horizon-remake
+npm install meta-horizon
 ```
 
 Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không Hiện Đâu Mà Tìm 😪
@@ -111,11 +111,11 @@ Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không H
 
 Nếu Bạn Muốn Sử Dụng Phiên Bản Mới Nhất Hay Cập Nhật Thì Hãy Vô Terminal Hoặc Command Promt Nhập :
 ```bash
-npm install meta-horizon-remake@latest
+npm install meta-horizon@latest
 ```
 Hoặc
 ```bash
-npm i meta-horizon-remake@latest
+npm i meta-horizon@latest
 ```
 
 ## ***Nếu Bạn Muốn Test API =))***
@@ -126,7 +126,7 @@ Hãy Sử Dụng Với Tài Khoản Thử Nghiệm => **[Facebook Whitehat Accou
 ## **📌 Cách Sử Dụng**
 
 ```javascript
-const login = require("meta-horizon-remake"); // lấy từ lib ra 
+const login = require("meta-horizon"); // lấy từ lib ra 
 
 // đăng nhập
 login({email: "Gmail Account", password: "Mật Khẩu Facebook Của Bạn"}, (err, api) => {
@@ -168,7 +168,7 @@ Bạn Cần Vô File Mirai.js Hoặc Main.js,... Sau Đó Tìm Đến Dòng
 Và Thay Nó Bằng:
 
 ```js
-    const | var login = require('meta-horizon-remake')
+    const | var login = require('meta-horizon')
 ```
 
 Sau Đó Thì Chạy Bình Thường Thôi  !
@@ -189,7 +189,7 @@ Và Chế Độ Này Đã Có Sẵn Trong 1 Số Bot Việt Nam Nên Bạn Cứ 
 
 ```js
 const fs = require("fs");
-const login = require("meta-horizon-remake");
+const login = require("meta-horizon");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // thông tin tài khoản
 
@@ -211,4 +211,4 @@ Hoặc Dễ Dàng Hơn ( Chuyên Nghiệp ) Bạn Có Thể Dùng => **[c3c-fbst
 
 ------------------------------------
 
-***Thanks You For Using Meta-Horizon-Remake***
+***Thanks You For Using Meta-Horizon***
