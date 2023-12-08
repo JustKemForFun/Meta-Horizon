@@ -26,6 +26,7 @@ global.Fca = new Object({
             "Language": "vi",
             "PreKey": "",
             "AutoUpdate": true,
+            "CustomFont": false,
             "MainColor": "#00FFFF",
             "MainName": "[ META-HZI ]",
             "Uptime": false,
@@ -110,7 +111,7 @@ global.Fca = new Object({
 });
 
 try {
-    let Boolean_Fca = ["AntiSendAppState","AutoUpdate","Uptime","BroadCast","EncryptFeature","AutoLogin","ResetDataLogin","Login2Fa", "DevMode","AutoInstallNode"];
+    let Boolean_Fca = ["AntiSendAppState","AutoUpdate","CustomFont","Uptime","BroadCast","EncryptFeature","AutoLogin","ResetDataLogin","Login2Fa", "DevMode","AutoInstallNode"];
     let String_Fca = ["MainName","PreKey","Language","AuthString","Config"]
     let Number_Fca = ["AutoRestartMinutes","RestartMQTT_Minutes"];
     let Object_Fca = ["HTML","Stable_Version","AntiGetInfo","Websocket_Extension"];
