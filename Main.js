@@ -6,6 +6,8 @@ if (global.Fca.Require.FastConfig.Config != 'default') {
     //do ssth
 }
 
+// var { setFont } = require("./font-handler");
+
 const Language = global.Fca.Require.languageFile.find((/** @type {{ Language: string; }} */i) => i.Language == global.Fca.Require.FastConfig.Language).Folder.Index;
 
 /!-[ Require All Package Need Use ]-!/
@@ -256,6 +258,16 @@ function setOptions(globalOptions, options) {
                         }
                         break;
                     }
+                    // case 'font': {
+                    //     if (typeof options.font != "string") {
+                    //       delete globalOptions.font;
+                    //       utils.setProxy();
+                    //     } else {
+                    //        globalOptions.font = options.font;
+                    //       setFont(options.font);
+                    //     }
+                    //     break;
+                    // }
                     default: {
                         log.warn("setOptions", "Unrecognized option given to setOptions: " + key);
                         break;
@@ -832,6 +844,7 @@ function loginHelper(appState, email, password, globalOptions, callback, prCallb
 
 try {
     if (appState) {
+        // console.log(gradient('purple', 'orange').multiline(["H", "O", "R", "I", "Z", "O", "N"].join('\n')));
         logger.Normal(Language.OnProcess);
             switch (Database().has("FBKEY")) {
                 case true: {
@@ -1018,10 +1031,13 @@ function setUserNameAndPassWord() {
     });
 
     console.clear();
-    console.log(figlet.textSync('Horizon', {font: 'ANSI Shadow',horizontalLayout: 'default',verticalLayout: 'default',width: 0,whitespaceBreak: true }));
+    // console.log(gradient.teen).multiline(["H", "O", "R", "I", "Z", "O", "N"].join('\n')));
+    // console.log();
+    console.log(figlet.textSync('Horizon', { font: 'ANSI Shadow',horizontalLayout: 'default',verticalLayout: 'default',width: 0,whitespaceBreak: true }));
     console.log(chalk.bold.hex('#9900FF')("[</>]") + chalk.bold.yellow(' ➣ ') + "Operating System: " + chalk.bold.red(os.type()));
     console.log(chalk.bold.hex('#9900FF')("[</>]") + chalk.bold.yellow(' ➣ ') + "Machine Version: " + chalk.bold.red(os.version()));
     console.log(chalk.bold.hex('#9900FF')("[</>]") + chalk.bold.yellow(' ➣ ') + "FCA Version: " + chalk.bold.red(global.Fca.Version) + '\n');
+    // console.log(gradient.teen).multiline([".------------.", "| AUTO LOGIN |", "'------------'"].join('\n')));
     try {
         rl.question(Language.TypeAccount, (Account) => {
             if (!Account.includes("@") && global.Fca.Require.utils.getType(parseInt(Account)) != "Number") return logger.Normal(Language.TypeAccountError, function () { process.exit(1) }); //Very Human
@@ -1128,7 +1144,7 @@ function login(loginData, options, callback) {
                     return answ;
                 };
                 console.clear();
-                console.log(figlet.textSync('Horizon', {font: 'ANSI Shadow',horizontalLayout: 'default',verticalLayout: 'default',width: 0,whitespaceBreak: true }));
+                console.log(figlet.textSync('Horizon', { font: 'ANSI Shadow',horizontalLayout: 'default', verticalLayout: 'default',width: 0,whitespaceBreak: true }));
                 console.log(chalk.bold.hex('#9900FF')("[</>]") + chalk.bold.yellow(' ➣ ') + "Operating System: " + chalk.bold.red(os.type()));
                 console.log(chalk.bold.hex('#9900FF')("[</>]") + chalk.bold.yellow(' ➣ ') + "Machine Version: " + chalk.bold.red(os.version()));
                 console.log(chalk.bold.hex('#9900FF')("[</>]") + chalk.bold.yellow(' ➣ ') + "FCA Version: " + chalk.bold.red(global.Fca.Version) + '\n');
