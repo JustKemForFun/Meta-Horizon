@@ -1,28 +1,28 @@
-[![Socket Badge](https://socket.dev/api/badge/npm/package/meta-horizon)](https://socket.dev/npm/package/meta-horizon)
+[![Socket Badge](https://socket.dev/api/badge/npm/package/meta-horizonn)](https://socket.dev/npm/package/meta-horizonn)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/JustKemForFun/JustKemForFun)
 ![Pastebin Badge](https://img.shields.io/badge/Pastebin-02456C?logo=pastebin&logoColor=fff&style=flat-square)
 
 # NPM Status
 
-[![NPM Version](https://img.shields.io/npm/v/meta-horizon.svg?style=flat-square)](https://www.npmjs.org/package/meta-horizon)
-[![NPM](https://nodei.co/npm/meta-horizon.png?downloads=true)](https://www.npmjs.com/package/meta-horizon)
-[![Minimum Node.JS Version](https://badgen.net/npm/node/meta-horizon)](https://npmjs.com/package/meta-horizon)
+[![NPM Version](https://img.shields.io/npm/v/meta-horizonn.svg?style=flat-square)](https://www.npmjs.org/package/meta-horizonn)
+[![NPM](https://nodei.co/npm/meta-horizonn.png?downloads=true)](https://www.npmjs.com/package/meta-horizonn)
+[![Minimum Node.JS Version](https://badgen.net/npm/node/meta-horizonn)](https://npmjs.com/package/meta-horizonn)
 <!-- <p align="center">
 	<a href="https://nodejs.org/dist/v16.20.0">
 		<img src="https://img.shields.io/badge/Nodejs%20Support-16.x-brightgreen.svg?style=flat-square" alt="Nodejs Support v16.x">
   </a>
 </p> -->
-[![NPM Package Dependents](https://badgen.net/npm/dependents/meta-horizon)](https://npmjs.com/package/meta-horizon)
+[![NPM Package Dependents](https://badgen.net/npm/dependents/meta-horizonn)](https://npmjs.com/package/meta-horizonn)
 
 ## Install Package
-[![Install Size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=meta-horizon&query=$.install.pretty&label=install%20size&style=flat-square)](https://packagephobia.now.sh/result?p=meta-horizon)
-[![NPM Bundle Size](https://img.shields.io/bundlephobia/minzip/meta-horizon?style=flat-square)](https://bundlephobia.com/package/meta-horizon@latest)
+[![Install Size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=meta-horizonn&query=$.install.pretty&label=install%20size&style=flat-square)](https://packagephobia.now.sh/result?p=meta-horizonn)
+[![NPM Bundle Size](https://img.shields.io/bundlephobia/minzip/meta-horizonn?style=flat-square)](https://bundlephobia.com/package/meta-horizonn@latest)
 
 # Downloads
-[![NPM Package Daily Downloads](https://badgen.net/npm/dm/meta-horizon)](https://npmjs.com/package/meta-horizon)
-[![NPM Package Monthly Downloads](https://badgen.net/npm/dm/meta-horizon)](https://npmjs.com/package/meta-horizon)
+[![NPM Package Daily Downloads](https://badgen.net/npm/dm/meta-horizonn)](https://npmjs.com/package/meta-horizonn)
+[![NPM Package Monthly Downloads](https://badgen.net/npm/dm/meta-horizonn)](https://npmjs.com/package/meta-horizonn)
 ### Total Downloads
-[![NPM Package Total Downloads](https://badgen.net/npm/dt/meta-horizon)](https://npmjs.com/package/meta-horizon)
+[![NPM Package Total Downloads](https://badgen.net/npm/dt/meta-horizonn)](https://npmjs.com/package/meta-horizonn)
 
 <!-- ## **List Info**
 
@@ -75,7 +75,7 @@ Chúc Các Bạn Một Ngày Tốt Lành!
 Cảm Ơn Vì Đã Sài Sản Phẩm của HZI, Thân Ái.
 
 ***KANZUWAKAZAKI(15/04/2023)
-KEM.RELEASE(25/08/2023)***
+KEM.RELEASE(25/08/2023) | (09/12/2023)***
 
 ## **📚 Support For :**
 
@@ -111,11 +111,11 @@ Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không H
 
 Nếu Bạn Muốn Sử Dụng Phiên Bản Mới Nhất Hay Cập Nhật Thì Hãy Vô Terminal Hoặc Command Promt Nhập :
 ```bash
-npm install meta-horizon@latest
+npm install meta-horizonn@latest
 ```
 Hoặc
 ```bash
-npm i meta-horizon@latest
+npm i meta-horizonn@latest
 ```
 
 ## ***Nếu Bạn Muốn Test API =))***
@@ -126,7 +126,7 @@ Hãy Sử Dụng Với Tài Khoản Thử Nghiệm => **[Facebook Whitehat Accou
 ## **📌 Cách Sử Dụng**
 
 ```javascript
-const login = require("meta-horizon"); // lấy từ lib ra 
+const login = require("meta-horizonn"); // lấy từ lib ra 
 
 // đăng nhập
 login({email: "Gmail Account", password: "Mật Khẩu Facebook Của Bạn"}, (err, api) => {
@@ -155,7 +155,7 @@ Bạn Có Thể Đọc Full API Tại => [here](DOCS.md).
 Bạn Cần Vô File Mirai.js Hoặc Main.js,... Sau Đó Tìm Đến Dòng
 ```js
     const | var login = require('tùy bot'); 
-    /* Có thể là :
+    /* Maybe | Có thể là :
   const | var login = require('@maihuybao/fca-Unofficial');
   const | var login = require('fca-xuyen-get');
   const | var login = require('fca-unofficial-force');
@@ -168,7 +168,7 @@ Bạn Cần Vô File Mirai.js Hoặc Main.js,... Sau Đó Tìm Đến Dòng
 Và Thay Nó Bằng:
 
 ```js
-    const | var login = require('meta-horizon')
+    const | var login = require('meta-horizonn')
 ```
 
 Sau Đó Thì Chạy Bình Thường Thôi  !
@@ -189,7 +189,7 @@ Và Chế Độ Này Đã Có Sẵn Trong 1 Số Bot Việt Nam Nên Bạn Cứ 
 
 ```js
 const fs = require("fs");
-const login = require("meta-horizon");
+const login = require("meta-horizonn");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // thông tin tài khoản
 
@@ -211,4 +211,4 @@ Hoặc Dễ Dàng Hơn ( Chuyên Nghiệp ) Bạn Có Thể Dùng => **[c3c-fbst
 
 ------------------------------------
 
-***Thanks You For Using Meta-Horizon***
+***Thanks You For Using Meta-Horizonn***
