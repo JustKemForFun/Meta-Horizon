@@ -1,6 +1,6 @@
 {
   "name": "meta-horizonn",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Facebook-Chat-API Protect and Deploy by Kanzu and HZI Team. Kem is redeveloped. Rename package is Meta Horizonn and package supported ChatBot Messenger.",
   "main": "index.js",
   "scripts": {
@@ -27,8 +27,6 @@
     "cheerio": "latest",
     "crypto-js": "latest",
     "deasync": "^0.1.28",
-    "define-properties": "^1.2.1",
-    "devtools-protocol": "^0.0.1235375",
     "duplexify": "^4.1.2",
     "encode32": "latest",
     "express": "latest",
@@ -38,7 +36,6 @@
     "fs-extra": "^11.1.1",
     "got": "^11.8.6",
     "https-proxy-agent": "latest",
-    "lru-cache": "^10.1.0",
     "is-hexcolor": "^1.0.0",
     "lodash": "latest",
     "moment": "^2.29.4",
@@ -54,7 +51,6 @@
     "speakeasy": "latest",
     "totp-generator": "latest",
     "tough-cookie": "^4.1.2",
-    "tr46": "^5.0.0",
     "uuid": "latest",
     "ws": "^8.13.0"
   },
