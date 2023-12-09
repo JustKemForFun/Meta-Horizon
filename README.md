@@ -14,16 +14,6 @@
 </p> -->
 [![NPM Package Dependents](https://badgen.net/npm/dependents/meta-horizonn)](https://npmjs.com/package/meta-horizonn)
 
-## Install Package
-[![Install Size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=meta-horizonn&query=$.install.pretty&label=install%20size&style=flat-square)](https://packagephobia.now.sh/result?p=meta-horizonn)
-[![NPM Bundle Size](https://img.shields.io/bundlephobia/minzip/meta-horizonn?style=flat-square)](https://bundlephobia.com/package/meta-horizonn@latest)
-
-# Downloads
-[![NPM Package Daily Downloads](https://badgen.net/npm/dm/meta-horizonn)](https://npmjs.com/package/meta-horizonn)
-[![NPM Package Monthly Downloads](https://badgen.net/npm/dm/meta-horizonn)](https://npmjs.com/package/meta-horizonn)
-### Total Downloads
-[![NPM Package Total Downloads](https://badgen.net/npm/dt/meta-horizonn)](https://npmjs.com/package/meta-horizonn)
-
 <!-- ## **List Info**
 
 - [📝 **Note**](#-note)
