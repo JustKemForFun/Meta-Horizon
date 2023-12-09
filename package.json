@@ -1,7 +1,7 @@
 {
   "name": "meta-horizonn",
   "version": "1.1.3",
-  "description": "Facebook-Chat-API Protect and Deploy by Kanzu and HZI Team. Kem is redeveloped. Rename package is Meta Horizon Remake and package supported ChatBot Messenger.",
+  "description": "Facebook-Chat-API Protect and Deploy by Kanzu and HZI Team. Kem is redeveloped. Rename package is Meta Horizonn and package supported ChatBot Messenger.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
