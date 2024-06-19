@@ -44,7 +44,7 @@
     "os": "latest",
     "path": "latest",
     "pretty-ms": "7.0.1",
-    "puppeteer": "^21.1.1",
+    "puppeteer": "^22.11.2",
     "readable-stream": "^4.4.0",
     "readline": "latest",
     "request": "latest",
